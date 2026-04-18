@@ -2,9 +2,9 @@ name := "DistributedAlgorithms"
 
 version := "0.1.0"
 
-scalaVersion := "2.13.12"
+scalaVersion := "3.3.4"
 
-lazy val akkaVersion = "2.8.5"
+lazy val akkaVersion = "2.10.7"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion,
